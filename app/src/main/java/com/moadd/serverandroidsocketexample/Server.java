@@ -82,6 +82,8 @@ public class Server extends AppCompatActivity {
             }
         });*/
      openHotspot.setOnClickListener(new View.OnClickListener() {
+
+
          @Override
          public void onClick(View view) {
              if (!hotname.getText().toString().trim().equals("") && !hotpassword.getText().toString().trim().equals("")&& (passwordneed.getText().toString().trim().equalsIgnoreCase("yes")||passwordneed.getText().toString().trim().equalsIgnoreCase("no")))
